@@ -110,7 +110,6 @@ def composeRules(initrules):
             grammar.append(composed)
 
     #removes binary rules since they've been added already,
-    #for some reason this gives ValueError sometimes
     for y in removelist:
         #print("this is y: ", y)
         try:
